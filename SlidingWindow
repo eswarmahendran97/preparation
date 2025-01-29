@@ -1,0 +1,12 @@
+Sliding window
+
+Maintains a window and will adjust it when necessary. Useful in substrings and SubArray. Used to reduce time complexity because recalculating over the entire collection for every possible subarray or substring would be too slow in naive approach
+
+Fixed Sliding window
+Given with window size of k
+
+Variable sliding window
+
+
+
+WorkflowStepServiceImpl

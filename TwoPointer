@@ -1,0 +1,31 @@
+Two Pointer:
+one point - starting index of sorted array
+another point - ending index of sorted array
+
+Using while loop with condition on one point and another point, we will move the pointer according to our need and use/check that pair (value at that 2 points) for the expected output.
+
+Complexity: O(n).. if Array unsorted then O(n log n) (due to sorting)
+
+Usecase:
+Two sum in sorted array
+Closest Two sum in sorted array
+Three sum
+Four sum
+Trapping rain water
+palindrome checking
+Removing duplicates from a sorted array
+Merge sorted array
+Finding pairs with specific difference
+
+
+Note: The way you move the pointers and condition in while loop depends on the specific problem.
+
+
+Take away:
+Array can be either sorted or unsorted. In case of unsorted array, sometimes you may need to sort the array and use 2 pointer(Merge 2 unsorted array), sometimes you will use unsorted array directly(Water trapping). 
+If its goes more than 2 point use a for loop. using for loop with 2 pointer will not make any difference when we use 3 pointers. Not only check from left to right check from right to left and compare left to right with right to left (Next permutation)
+Going back and forth using 2 pointer in unsorted array for finding a target will not work
+
+
+Algorihm:
+Maximum Subarray Sum – Kadane’s Algorithm
